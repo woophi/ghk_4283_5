@@ -15,7 +15,7 @@ export const App = () => {
 
   const submit = () => {
     window.gtag('event', 'connect_click', {
-      variant_name: 'ghk_4283_3',
+      variant_name: 'ghk_4283_5',
     });
     setLoading(true);
     LS.setItem(LSKeys.ShowThx, true);
@@ -67,7 +67,7 @@ export const App = () => {
             target="_blank"
             onClick={() => {
               window.gtag('event', 'agreement_doc_click', {
-                variant_name: 'ghk_4283_3',
+                variant_name: 'ghk_4283_5',
               });
             }}
           >
